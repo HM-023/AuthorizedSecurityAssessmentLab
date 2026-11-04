@@ -1,18 +1,15 @@
+![Authorized Security Assessment Lab](assets/cover.svg)
+
 # Authorized Security Assessment Lab
+
+**Methodology case study** · [Portfolio](https://github.com/HM-023) · [Scope and method](docs/scope-and-method.md) · [Findings](docs/findings.md) · [Finding template](templates/finding-template.md)
+
 
 A defensive write-up of vulnerability assessment methodology demonstrated in intentionally vulnerable **local training applications and virtual machines**. This repository focuses on scope, risk reasoning, and remediations. It is **not** an instruction set for testing real websites.
 
-## Workflow
+## Assessment workflow
 
-```mermaid
-flowchart TD
-    A[Written lab authorization] --> B[Asset inventory]
-    B --> C[Service and application review]
-    C --> D[Manual verification in isolated lab]
-    D --> E[Record and prioritize findings]
-    E --> F[Remediation advice]
-    F --> G[Lab retesting and closure]
-```
+![Architecture overview](assets/architecture.svg)
 
 ## Included
 
@@ -32,3 +29,4 @@ No real public websites, individual names, contact information, unredacted crede
 ## Project status
 
 A sanitized **methodology and remediation case study**, not a current penetration-test report or certification. Some original work was collaborative; ownership and permissions must be established before adding any original evidence.
+
